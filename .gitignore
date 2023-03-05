@@ -35,3 +35,4 @@ yarn-error.log*
 /utils/openai.js
 /src/utils/openai.js
 /src/utils/openai
+src/utils
