@@ -32,4 +32,4 @@ yarn-error.log*
 .vercel
 
 #openai
-openai.js
+/utils/openai.js
