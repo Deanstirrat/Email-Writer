@@ -1,0 +1,19 @@
+{
+    "version": 2,
+    "name": "GPT-3Mail",
+    "alias": "GPT-3Mail.vercel.app",
+    "builds": [
+      { "src": "next.config.js", "use": "@vercel/next" }
+    ],
+    "routes": [
+      { "src": "/.*", "dest": "/index.js" }
+    ],
+    "projectSettings": {
+      "buildCommand": null,
+      "devCommand": null,
+      "framework": "nextjs",
+      "commandForIgnoringBuildStep": "",
+      "installCommand": null,
+      "outputDirectory": null
+  }
+  }
